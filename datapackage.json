@@ -1,0 +1,330 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "Desktop\\practice\\city-cost-of-living-index\\data\\cost.csv",
+            "profile": "tabular-data-resource",
+            "name": "cost",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "field1",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2001.0",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2002.0",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2003.0",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2004.0",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2005.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2006.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2007.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2008.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2009.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2010.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2011.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2012.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2013.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2014.0",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2015.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2016.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2017.0",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2018.0",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2019.0",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2020.0",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2021.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2022.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2023.0",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "Desktop\\practice\\city-cost-of-living-index\\data\\cost_piv.csv",
+            "profile": "tabular-data-resource",
+            "name": "cost_piv",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Region",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Year",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Average cost of living space(per square m)",
+                        "type": "integer",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "Desktop\\practice\\city-cost-of-living-index\\data\\spend.csv",
+            "profile": "tabular-data-resource",
+            "name": "spend",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "field1",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2001.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2002.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2003.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2004.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2005.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2006.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2007.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2008.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2009.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2010.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2011.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2012.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2013.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2014.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2015.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2016.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2017.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2018*",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2019.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2020.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2021.0",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2022*",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "Desktop\\practice\\city-cost-of-living-index\\data\\spend_piv.csv",
+            "profile": "tabular-data-resource",
+            "name": "spend_piv",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Region",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Year",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Average spendings(month)",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
