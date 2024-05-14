@@ -67,7 +67,7 @@ df_unpivot.rename(columns={"Unnamed: 0": "Region", "variable": "Year", "value": 
 df_unpivot = df_unpivot.drop(columns=['Year'])
 
 # Exclude the rows with regions 'Республика Казахстан', 'Жезказган', and 'Конаев'
-df_unpivot = df_unpivot[~df_unpivot['Region'].isin(['Республика Казахстан', 'Жезказган', 'Конаев'])]
+df_unpivot = df_unpivot[~df_unpivot['Region'].isin(['Республика Казахстан', 'Жезказган', 'Конаев', 'Taraz city', 'Kyzylorda city' ])]
 
 # Remove rows with NaN in 'Average cost of living space(per square m)' column
 df_unpivot.dropna(subset=['Value'], inplace=True)
