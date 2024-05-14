@@ -1,19 +1,19 @@
-Region,Year,Average cost of living space(per square m)
-Астана,2022.0,575354
-Алматы,2022.0,460542
-Шымкент,2022.0,461097
-Актау,2022.0,326205
-Актобе,2022.0,259302
-Атырау,2022.0,376631
-Кокшетау,2022.0,310098
-Караганда,2022.0,318509
-Костанай,2022.0,345024
-Кызылорда,2022.0,0
-Уральск,2022.0,254775
-Усть-Каменогорск,2022.0,343024
-Павлодар,2022.0,314643
-Петропавловск,2022.0,317484
-Семей,2022.0,314550
-Талдыкорган,2022.0,189824
-Тараз,2022.0,0
-Туркестан,2022.0,300000
+Region,Value
+Astana city,575354
+Almaty city,460542
+Shymkent city,461097
+Akatau city,326205
+Aktobe city,259302
+Atyrau city,376631
+Kokshetau city,310098
+Karaganda city,318509
+Kostanai city,345024
+Kyzylorda city,0
+Uralsk city,254775
+Ust-Kamenagorsk city,343024
+Pavlodar city,314643
+Petropavlovsk city,317484
+Semei city,314550
+Taldykorgan city,189824
+Taraz city,0
+Turkistan city,300000
