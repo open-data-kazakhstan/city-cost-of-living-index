@@ -71,12 +71,18 @@ df_unpivot.rename(columns={"Unnamed: 0": "Region", "variable": "Year", "value": 
 df_unpivot = df_unpivot.drop(columns=['Year'])
 
 # Exclude the row with region 'Республика Казахстан'
-df_unpivot = df_unpivot[df_unpivot['Region'] != 'Республика Казахстан']
+df_unpivot = df_unpivot[~df_unpivot['Region'].isin(['Республика Казахстан', 'Южно-Казахстанская'])]
 
 
 
 # Remove rows with NaN in 'Average spendings(month)' column
 df_unpivot.dropna(subset=['Value'], inplace=True)
+
+# Convert non-numeric values to NaN
+df_unpivot['Value'] = pd.to_numeric(df_unpivot['Value'], errors='coerce')
+
+# Convert the column to integers
+df_unpivot['Value'] = df_unpivot['Value'].fillna(0).astype(int)
 
 # Print and save the result
 print(df_unpivot)
